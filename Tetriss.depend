@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1653231723 source:d:\ltnc\new folder\tetriss\util.cpp
+	"Util.h"
+
+1653215674 d:\ltnc\new folder\tetriss\util.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<bits/stdc++.h>
+
+1653240818 source:d:\ltnc\new folder\tetriss\main.cpp
+	"Tetris.h"
+
+1653238881 d:\ltnc\new folder\tetriss\tetris.h
+	"Util.h"
+
+1653243438 source:d:\ltnc\new folder\tetriss\tetris.cpp
+	"Tetris.h"
+
