@@ -2,6 +2,12 @@
   - Chuyển repo này vào tài khoản riêng của bạn 
   -  Sao chép repo đã chia nhỏ vào cục bộ của bạn thông qua lệnh: git clone https://github.com/[YOUR_USERNAME]/advprogram_Painter.git
   -  Máy đã cài đặt các chuong trình SDL2, SDL Image, SDL Mixer, SDL ttf
+  -  Đối với Code Block :
+        - Liên kết Linker settings: -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
+        - Vị trí thư mục include: Search directories | Compilers
+        - Vị trí thư mục lib: Search directories | Linker
+        - Dẫn đường link từng thư mục trên của SDL2, SDL Image, SDL Mixer, SDL ttf vào các đường dẫn như trên 
+        - Các bước trên cần thiết để cài thư viên SDL2 để có thể chạy được chương trình 
   -  Nhấp đúp Tetris.exe để chạy chương trình
 
 2. Mô tả chung về trò chơi, ý tưởng chính:
